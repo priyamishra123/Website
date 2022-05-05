@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+ background-color: rgb(29, 28, 28);
+ height: 50px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font: "Fira Sans", sans-serif;
+ padding: 10px 140px;
+ /* border-bottom: 0.5px white; */
+}
+.r{ 
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.call{
+    
+    color:  #bc8c4c;
+   font-weight: bold;
+   margin-right: 12px; 
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.top img{
+    width: 55px;
+    height: auto;
+}
+.call:hover{
+    color: #8c6128;
+}
+.down {
+    display: flex;
+    align-items: center;
+    background-color: rgb(29, 28, 28);
+    padding: 10px 140px;
+    height: 50px;
+    list-style-type: none;
+   position: sticky;
+   top: 0px;
+}
+.down ul li{
+    list-style-type: none;
+}
+.down ul li a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 30px;
+
+}
+.down button{
+    margin-left: 500px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #bc8c4c;
+    color: white;
+    font-weight: bold;
+    font: "Fira Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+.down button:hover{
+    background-color:#8c6128 ;
+}
+
+.bc {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(imgs/header.jpg); height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: scroll; */
+    background-attachment: fixed;
+    /* color-interpolation-filters: linearRGB; */
+}
+
+
+
+.bc img{
+   
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 0;
+    box-shadow: 10px white;
+
+}
+.b{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 10px 10px black;
+    margin-bottom: 0px;
+    
+}
+.c{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.d{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #bc8c4c;
+    color: white;
+    /* font-weight: bold; */
+    font: "Fira Sans", sans-serif;
+    border: none;
+    text-transform: capitalize;
+}
+.d:hover{
+    color: rgb(247, 243, 243);
+    background-color: #8c6128;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+.g{
+    margin-right: 250px;
+}
+.h{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.fg{
+    font-family: inherit;
+    opacity: .4;
+    font-size: 17px;
+}
+.f{
+    font-family: inherit;
+    opacity: .4;
+    font-size: 11px;
+}
+.e{
+    font-family: inherit;
+    /* opacity: .4; */
+    font-size: 16px;
+}
+.w{
+    margin-right: 20px;
+}
+.de{
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 2px;
+    background-color: #bc8c4c;
+    color: white;
+    /* font-weight: bold; */
+    font: "Fira Sans", sans-serif;
+    border: none;
+    text-transform: capitalize;
+}
+.de:hover{
+    color: rgb(247, 243, 243);
+    background-color: #8c6128;
+}
+.lorem{
+    
+    display: flex;
+    padding: 50px;
+}
+.q{
+   margin-top: 100px;
+   margin-left: 50px;
+}
+.u{
+    font-family: inherit; 
+    opacity: .4;
+    font-size: 11px;
+    color: white;
+    position: relative;
+}
+.ul{
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.menu{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(imgs/section.jpg);
+    height: 650px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: scroll; */
+    background-attachment: fixed;
+    padding: 100px;
+}
+.menum{
+    background-color: white;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    margin-bottom: 100px;
+    border-radius: 2px;
+   grid-template-columns:auto auto ;
+   padding: 70px;
+}
